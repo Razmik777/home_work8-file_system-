@@ -15,7 +15,7 @@ def copy_file():
     lines = content.split('\n')
     line_to_copy = lines[line_number - 1]
 
-    file_number_second = int(input("Выберит файл, в который хотите скопировать данные\n"
+    file_number_second = int(input("Выберите файл, в который хотите скопировать данные\n"
                        "Введите цифру 1 или 2: "))
     while file_number_second < 1 or file_number_second > 2:
         file_number_second = int(input("Ошибка!!!\n"
