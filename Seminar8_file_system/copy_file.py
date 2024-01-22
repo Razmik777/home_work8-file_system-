@@ -1,7 +1,7 @@
 
 
 def copy_file():
-    file_number = int(input("Выберит файл, с которым Вы хотите работать\n"
+    file_number = int(input("Выберите файл, с которым Вы хотите работать\n"
                        "Введите цифру 1 или 2: "))
     while file_number < 1 or file_number > 2:
         file_number = int(input("Ошибка!!!\n"
